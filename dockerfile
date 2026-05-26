@@ -13,6 +13,7 @@ FROM eclipse-temurin:22-jdk
 COPY --from=buildstage /app/target/CloudNative_s1-1.0.0.jar /app/app.jar
 
 COPY src/main/resources/wallet /wallet
+RUN chmod -R 755 /wallet && ls -la /wallet
 
 EXPOSE 8080
 
