@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.duoc</groupId>
 	<artifactId>CloudNative_s1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>CloudNative_s1</name>
 	<description/>
 	<url/>
